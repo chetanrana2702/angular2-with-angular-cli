@@ -2,6 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.1.
 
+## Prerequisite
+
+You should have lastest [node](https://nodejs.org/en/download/) version installed in your pc.
+Then you must install @angular/cli globally into your system
+`npm install --save @angular/cli`
+
+Now clone this repository into your pc. Then do `cd myapp` and follow below
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
