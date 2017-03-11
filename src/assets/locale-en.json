@@ -8,7 +8,8 @@
         "Home": "Home",
         "About": "About",
         "Privacy": "Privacy",
-        "Arabic": "اللغة العربية"
+        "Arabic": "اللغة العربية",
+        "Hebrew": "שפה עברית"
     },
     "Home": {
         "Title": "Home Page",

@@ -23,6 +23,7 @@ export class LocalizationConfig {
     load(): Promise<any> {
         this.locale.AddConfiguration()
             .AddLanguage('en', 'ltr')
+            .AddLanguage('iw', 'rtl')
             .AddLanguage('ar', 'rtl')
             .SetCookieExpiration(30)
             .DefineDefaultLocale('en', 'US')
