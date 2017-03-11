@@ -1,0 +1,42 @@
+<div class="app-container" [dir]="dir" fullscreen [ngClass]="dir">
+
+  <!--navbar-fixed-top-->
+  <nav class="navbar navbar-default "> 
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Myapp</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+        <!-- <li class="active"><a href="#">Home</a></li> -->
+          <li routerLinkActive="active"><a class="nav-link" routerLink="/about" translate>App.About</a></li>
+          <li routerLinkActive="active"><a class="nav-link" routerLink="/privacy" translate>App.Privacy</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><button class="btn navbar-btn" (click)="selectLocale('en', 'US', 'USD');  this.dir = getLanguageDirection('en')">English</button></li>
+          <li><button class="btn navbar-btn" (click)="selectLocale('ar', 'SA', 'SAR');  this.dir = getLanguageDirection('ar')" translate>App.Arabic</button></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ 
+
+  <div class="container">
+    <div class="jumbotron">
+    <!--<h2>  
+      {{environmentName}}
+    </h2>-->
+      <router-outlet></router-outlet>
+    
+      <footer id="footer">
+        <p class="social">
+          <a href=""><i class="fa fa-facebook"></i></a>
+          <a href=""><i class="fa fa-twitter"></i></a>
+          <a href=""><i class="fa fa-linkedin"></i></a>
+          <a href=""><i class="fa fa-google-plus"></i></a>
+        </p>
+        <p class="rights" translate>Footer.Content <a class="dont-remove" href="https://github.com/chetanrana2702" target="_blank">Chetan Rana</a></p>
+      </footer>
+    </div>
+  </div>
+</div>

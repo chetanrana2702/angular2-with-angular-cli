@@ -1,0 +1,4 @@
+/* You can add global styles to this file, and also import other style files */
+.jumbotron p { font-size: 15px;}
+.rtl .navbar-nav>li,.rtl .navbar-nav, .rtl .navbar-header{ float: right;}
+.rtl .navbar-right{float:left !important;}

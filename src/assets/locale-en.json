@@ -1,0 +1,32 @@
+{
+    "App": {
+        "Title": "Myapp",
+        "Subtitle": "It's a small world",
+        "Change country": "Change country",
+        "Resources": "Resources",
+        "Menu": "Navigation",
+        "Home": "Home",
+        "About": "About",
+        "Privacy": "Privacy",
+        "Arabic": "اللغة العربية"
+    },
+    "Home": {
+        "Title": "Home Page",
+        "Dummy text": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. \"What's happened to me?\" he thought. It wasn't a dream.",
+        "Author": "Kafka",
+        "Source title": "The Metamorphosis",
+        "Messages": "Messages"
+    },
+    "About": {
+        "Title": "About us",
+        "Content": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment.",
+        "OurTeam": "Our Team"
+    },
+    "Privacy": {
+        "Title": "Privacy Policy",
+        "Content": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment."
+    },
+    "Footer": {
+        "Content": "Copyright @2017 Myapp. Designed By"
+    }
+}
